@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="GET">
+            <div class="font-weight-bold mt-3">Name <span class="text-danger">*</span></div>
+            <div class="form-row">
+                <div class="col">
+                    <label for="firstname"><input type="text" class="form-control w-100" id="firstname">First</label>
+                </div>
+                <div class="col">
+                    <label for="lastname"><input type="text" class="form-control w-100" id="lastname">Last</label>
+                </div>
+                <div class="col-7"></div>
+            </div>
+
+            <div class="font-weight-bold mt-3">Email <span class="text-danger">*</span></div>
+            <div class="form-row">
+                <div class="col-5">
+                    <input type="text" class="form-control w-100">
+                </div>
+                <div class="col-7"></div>
+            </div>
+
+            <div class="font-weight-bold mt-3">Your Experience <span class="text-danger">*</span></div>
+
+            <div class="stars mt-1" >
+                <input type="radio" name="ratingstar" value="1" />
+                <input type="radio" name="ratingstar" value="2" />
+                <input type="radio" name="ratingstar" value="3" />
+                <input type="radio" name="ratingstar" value="4" />
+                <input type="radio" name="ratingstar" value="5" />
+                <i></i>
+            </div>
+
+            <div class="my-3" > Overall, how would you rate your experience with us?</div>
+
+            <div class="font-weight-bold my-2">How satisfied are you with <span class="text-danger">*</span></div>
+            <table class="table table-striped text-center">
+                <tr>
+                    <td width="20%"></td>
+                    <td width="16%">Very Unsatisfied</td>
+                    <td width="16%">Unsatisfied</td>
+                    <td width="16%">Neutral</td>
+                    <td width="16%">Satisfied</td>
+                    <td width="16%">Very Satisfied</td>
+                </tr>
+                <tr>
+                    <td class="text-left">Purchase</td>
+                    <td><input type="radio" name="veryunsatisfied"></td>
+                    <td><input type="radio" name="unsatisfied"></td>
+                    <td><input type="radio" name="neutral"></td>
+                    <td><input type="radio" name="satisfied"></td>
+                    <td><input type="radio" name="verysatisfied"></td>
+                </tr>
+                <tr>
+                    <td class="text-left">Service</td>
+                    <td><input type="radio" name="veryunsatisfied"></td>
+                    <td><input type="radio" name="unsatisfied"></td>
+                    <td><input type="radio" name="neutral"></td>
+                    <td><input type="radio" name="satisfied"></td>
+                    <td><input type="radio" name="verysatisfied"></td>
+                </tr>
+                <tr>
+                    <td class="text-left">Company Overall</td>
+                    <td><input type="radio" name="veryunsatisfied"></td>
+                    <td><input type="radio" name="unsatisfied"></td>
+                    <td><input type="radio" name="neutral"></td>
+                    <td><input type="radio" name="satisfied"></td>
+                    <td><input type="radio" name="verysatisfied"></td>
+                </tr>
+            </table>
+
+
+            <div class="font-weight-bold my-2">How likely are you to <span class="text-danger">*</span></div>
+            <table class="table table-striped text-center new_table">
+                <tr>
+                    <td width="20%"></td>
+                    <td width="16%">Very Unlikely</td>
+                    <td width="16%">Unlikely</td>
+                    <td width="16%">Neutral</td>
+                    <td width="16%">Likely</td>
+                    <td width="16%">Very Likely</td>
+                </tr>
+                <tr>
+                    <td class="text-left">Buy from us again</td>
+                    <td ><input type="radio" name="veryunlikely"></td>
+                    <td><input type="radio" name="unlikely"></td>
+                    <td><input type="radio" name="neutral"></td>
+                    <td><input type="radio" name="likely"></td>
+                    <td><input type="radio" name="verylikely"></td>
+                </tr>
+                <tr>
+                    <td class="text-left">Recommend our <br> products to others</td>
+                    <td><input type="radio" name="veryunlikely"></td>
+                    <td><input type="radio" name="unlikely"></td>
+                    <td><input type="radio" name="neutral"></td>
+                    <td><input type="radio" name="likely"></td>
+                    <td><input type="radio" name="verylikely"></td>
+                </tr>
+                <tr>
+                    <td class="text-left">Recommand our <br> company to others</td>
+                    <td><input type="radio" name="veryunlikely"></td>
+                    <td><input type="radio" name="unlikely"></td>
+                    <td><input type="radio" name="neutral"></td>
+                    <td><input type="radio" name="likely"></td>
+                    <td><input type="radio" name="verylikely"></td>
+                </tr>
+            </table>
+
+            <div class="font-weight-bold mt-2">Additional comments or suggestions</div>
+            <textarea class="form-control" name="comments" id="" cols="30" rows="5"></textarea>
+
+            <button class="btn custom-btn mt-2" type="submit">Submit</button>
+
+        </form>
+    </div>
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
